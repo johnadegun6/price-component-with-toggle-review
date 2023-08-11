@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 15px;
+  background-color:  hsl(240, 78%, 98%);
 }
 
 .attribution { 
@@ -32,5 +33,11 @@ body {
 }
 
 .btn {
-  border: 2px solid linear-gradient( 90deg, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+  border: 2px solid linear-gradient(( 90deg, hsl(236, 72%, 79%) , hsl(237, 63%, 64%)));
 }
+
+.btn:hover {
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) , hsla(0, 0%, 100%, 0));
+  color:  hsl(237, 63%, 64%);
+}
+
