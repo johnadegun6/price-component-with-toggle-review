@@ -53,7 +53,7 @@ function App() {
 
           
            {/* CENTER CARD */}
-          <article className=" linear-gradient p-8 rounded shadow lg:w-full lg:scale-110 ">
+          <article className=" linear-gradient p-8 rounded shadow lg:w-full lg:scale-105">
             <h2 className=" text-xl mb-5 mt-1 text-white ">Professional</h2>
 
             {annually && ( 
