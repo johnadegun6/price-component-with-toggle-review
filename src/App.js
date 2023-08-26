@@ -27,11 +27,11 @@ function App() {
           <label class="name" >Monthly</label>
         </div>
 
-        <div className="md:mb-4 flex flex-wrap flex-row justify-center gap-0 text-center max-w-6xl mx-auto lg-gap-0 lg-flex-row rounded-md lg:w-full lg:flex-nowrap ">
+        <div className="md:flex flex-wrap flex-row justify-center gap-0 text-center max-w-6xl mx-auto lg-gap-0 lg-flex-row rounded-md lg:w-full lg:flex-nowrap ">
 
 
           {/* LEFT CARD */}
-          <article className="p-9 rounded bg-white shadow lg:w-full ">
+          <article className="p-9 rounded bg-white shadow lg:w-full mb-4">
             <h2 className=" text-slate-800 text-xl mb-5 ">Basic</h2>
 
             {annually && (
@@ -48,12 +48,12 @@ function App() {
               <li className=" border-t py-3 border-slate-600  "> 2 Users Allowed</li>
               <li className=" border-y py-3 border-b border-slate-600  ">Send up to 3 GB</li>
             </ul>
-            <button className=" linear-gradient btn text-white  py-3 w-full rounded-lg shadow uppercase cursor-pointer hover:border-2 border-2">Learn More</button>
+            <button className=" linear-gradient btn text-white  py-3 w-full rounded-lg shadow uppercase cursor-pointer hover:border-2 border-2 pb-2">Learn More</button>
           </article>
 
           
            {/* CENTER CARD */}
-          <article className=" linear-gradient p-8 rounded shadow lg:w-full lg:scale-105">
+          <article className=" linear-gradient p-8 rounded shadow lg:w-full lg:scale-105 mb-4">
             <h2 className=" text-xl mb-5 mt-1 text-white ">Professional</h2>
 
             {annually && ( 
@@ -76,7 +76,7 @@ function App() {
 
 
            {/* RIGHT CARD */}
-          <article className=" p-8 bg-white rounded shadow lg:w-full ">
+          <article className=" p-8 bg-white rounded shadow lg:w-full mb-4">
             <h2 className=" text-slate-800 text-xl mt-1 mb-5 ">Master</h2>
 
             {annually && (
